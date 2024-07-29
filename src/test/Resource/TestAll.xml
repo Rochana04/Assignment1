@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite parallel="none" name="Suite">
+  <test name="Test">
+    <classes>
+	  <class name="baseTestClass.OpenCloseBrowserTest"/>
+	  <class name="baseTestClass.ValidateTitleTest" />
+      
+	  <class name="baseTestClass.MenuLinksTest" />
+	  <class name="baseTestClass.CrossBrowserTest" />
+	  <class name="baseTestClass.HRMlogin" />
+	  
+	  <!--<class name="baseTestClass.OpenCloseBrowserTest"/>
+	  <class name="baseTestClass.ValidateTitleTest" />
+	  <class name="baseTestClass.MenuLinksTest" />
+	  <class name="baseTestClass.CrossBrowserTest" />
+	  <class name="baseTestClass.OrangeHRMLogin" />-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
